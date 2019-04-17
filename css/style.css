@@ -1,0 +1,67 @@
+body{
+    background-color: burlywood;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    color: white;
+}
+
+table{
+    color: red;
+    background-color: lightgray;
+}
+
+hr{
+    border-color: red;
+}
+
+table{
+    background-color: transparent;
+}
+
+.principal{
+    text-align: center; 
+}
+
+button {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: red;
+    background-color: transparent;
+    border: 1px;
+    margin: 100px;
+    opacity: 0.6;
+    transition: 0.3;
+}
+
+
+
+button:hover{
+    opacity: 1;
+}
+
+a:hover{
+    opacity: 0.5;
+}
+
+a   {
+    color: red;
+}
+
+
+.footer
+    margin: 100px;
+    font-size: 30px;
+}
+
+blink, .blink {
+    -webkit-animation: blink 1s step-end infinite;
+    -moz-animation: blink 1s step-end infinite;
+    -o-animation: blink 1s step-end infinite;
+    animation: blink 1s step-end infinite;
+    color: red;
+
+@-webkit-keyframes blink { 70% { opacity: 0 }}
+@-moz-keyframes blink {  70% { opacity: 0 }}
+@-o-keyframes blink {  70% { opacity: 0 }}
+@keyframes blink {  70% { opacity: 0 }}
+
+}
